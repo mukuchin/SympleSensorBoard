@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10204,16 +10204,16 @@ Source: www.kingbright.com</description>
 <wire x1="0" y1="5.715" x2="-0.825" y2="5.715" width="0.127" layer="21"/>
 </package>
 <package name="BOX10P-L">
-<pad name="P$1" x="5.08" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$2" x="5.08" y="0" drill="0.6" shape="square"/>
-<pad name="P$3" x="2.54" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$4" x="2.54" y="0" drill="0.6" shape="square"/>
-<pad name="P$5" x="0" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$6" x="0" y="0" drill="0.6" shape="square"/>
-<pad name="P$7" x="-2.54" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$8" x="-2.54" y="0" drill="0.6" shape="square"/>
-<pad name="P$9" x="-5.08" y="2.54" drill="0.6" shape="square"/>
-<pad name="P$10" x="-5.08" y="0" drill="0.6" shape="square"/>
+<pad name="P$1" x="5.08" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$2" x="5.08" y="0" drill="1.02" shape="square"/>
+<pad name="P$3" x="2.54" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$4" x="2.54" y="0" drill="1.02" shape="square"/>
+<pad name="P$5" x="0" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$6" x="0" y="0" drill="1.02" shape="square"/>
+<pad name="P$7" x="-2.54" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$8" x="-2.54" y="0" drill="1.02" shape="square"/>
+<pad name="P$9" x="-5.08" y="2.54" drill="1.02" shape="square"/>
+<pad name="P$10" x="-5.08" y="0" drill="1.02" shape="square"/>
 <wire x1="-10.149965625" y1="-2" x2="-10.149965625" y2="-11" width="0.127" layer="21"/>
 <wire x1="-10.149965625" y1="-11" x2="-2.54" y2="-11" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-11" x2="-2.54" y2="-8.89" width="0.127" layer="21"/>
@@ -10230,16 +10230,16 @@ Source: www.kingbright.com</description>
 </polygon>
 </package>
 <package name="BOX10P-T">
-<pad name="P$1" x="-5.08" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$2" x="-5.08" y="1.27" drill="0.6" shape="square"/>
-<pad name="P$3" x="-2.54" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$4" x="-2.54" y="1.27" drill="0.6" shape="square"/>
-<pad name="P$5" x="0" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$6" x="0" y="1.27" drill="0.6" shape="square"/>
-<pad name="P$7" x="2.54" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$8" x="2.54" y="1.27" drill="0.6" shape="square"/>
-<pad name="P$9" x="5.08" y="-1.27" drill="0.6" shape="square"/>
-<pad name="P$10" x="5.08" y="1.27" drill="0.6" shape="square"/>
+<pad name="P$1" x="-5.08" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$2" x="-5.08" y="1.27" drill="1.02" shape="square"/>
+<pad name="P$3" x="-2.54" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$4" x="-2.54" y="1.27" drill="1.02" shape="square"/>
+<pad name="P$5" x="0" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$6" x="0" y="1.27" drill="1.02" shape="square"/>
+<pad name="P$7" x="2.54" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$8" x="2.54" y="1.27" drill="1.02" shape="square"/>
+<pad name="P$9" x="5.08" y="-1.27" drill="1.02" shape="square"/>
+<pad name="P$10" x="5.08" y="1.27" drill="1.02" shape="square"/>
 <wire x1="-10.16" y1="-4.55" x2="-1.27" y2="-4.55" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-4.55" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
@@ -10284,6 +10284,28 @@ Source: www.kingbright.com</description>
 <wire x1="0" y1="3.175" x2="-0.825" y2="3.175" width="0.127" layer="21"/>
 <wire x1="0" y1="5.715" x2="-0.825" y2="5.715" width="0.127" layer="21"/>
 </package>
+<package name="BOX10P-MESU">
+<description>&lt;b&gt;2.54ピッチ10ピンボックスメスソケット（スルーホール）&lt;/b&gt;&lt;br&gt;
+digikey[S9194-ND]</description>
+<wire x1="-8.89" y1="0" x2="-8.89" y2="6" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="6" x2="8.89" y2="6" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="0" x2="-1.85" y2="0" width="0.127" layer="21"/>
+<wire x1="1.85" y1="0" x2="8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="6" width="0.127" layer="21"/>
+<pad name="1" x="-5.08" y="1.73" drill="1.02"/>
+<pad name="3" x="-2.54" y="1.73" drill="1.02"/>
+<pad name="5" x="0" y="1.73" drill="1.02"/>
+<pad name="7" x="2.54" y="1.73" drill="1.02"/>
+<pad name="9" x="5.08" y="1.73" drill="1.02"/>
+<pad name="2" x="-5.08" y="4.27" drill="1.02"/>
+<pad name="4" x="-2.54" y="4.27" drill="1.02"/>
+<pad name="6" x="0" y="4.27" drill="1.02"/>
+<pad name="8" x="2.54" y="4.27" drill="1.02"/>
+<pad name="10" x="5.08" y="4.27" drill="1.02"/>
+<wire x1="-1.85" y1="-1" x2="1.85" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="0" x2="-1.85" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.85" y1="0" x2="1.85" y2="-1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BOX14PIN">
@@ -10307,20 +10329,20 @@ Source: www.kingbright.com</description>
 <wire x1="-2.54" y1="-20.32" x2="-2.54" y2="17.78" width="0.254" layer="94"/>
 </symbol>
 <symbol name="BOX10P">
-<pin name="P$1" x="5.08" y="0" length="middle" rot="R180"/>
-<pin name="P$2" x="5.08" y="-5.08" length="middle" rot="R180"/>
-<pin name="P$3" x="5.08" y="-10.16" length="middle" rot="R180"/>
-<pin name="P$4" x="5.08" y="-15.24" length="middle" rot="R180"/>
-<pin name="P$5" x="5.08" y="-20.32" length="middle" rot="R180"/>
-<pin name="P$6" x="5.08" y="-25.4" length="middle" rot="R180"/>
-<pin name="P$7" x="5.08" y="-30.48" length="middle" rot="R180"/>
-<pin name="P$8" x="5.08" y="-35.56" length="middle" rot="R180"/>
-<pin name="P$9" x="5.08" y="-40.64" length="middle" rot="R180"/>
-<pin name="P$10" x="5.08" y="-45.72" length="middle" rot="R180"/>
-<wire x1="-17.78" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="0" y1="-48.26" x2="-17.78" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-48.26" x2="-17.78" y2="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="P$2" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="P$3" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="P$4" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="P$5" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="P$6" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$7" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$8" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$9" x="15.24" y="-20.32" length="middle" rot="R180"/>
+<pin name="P$10" x="15.24" y="-25.4" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-27.94" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-27.94" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10352,7 +10374,7 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BOX10P" prefix="BOX10P-L">
+<deviceset name="BOX10P">
 <gates>
 <gate name="G$1" symbol="BOX10P" x="7.62" y="22.86"/>
 </gates>
@@ -10392,6 +10414,23 @@ Source: www.kingbright.com</description>
 </technologies>
 </device>
 <device name="" package="CON_HEDA10P_1.27">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BOX10PIN-MESU" package="BOX10P-MESU">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$10" pad="10"/>
@@ -10614,7 +10653,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="150"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="150"/>
 <part name="U$3" library="user_conector" deviceset="BOX14P" device=""/>
-<part name="BOX10P-L1" library="user_conector" deviceset="BOX10P" device="BOX10P-L"/>
 <part name="SW1" library="B2B-XH-A_LF__SN_" deviceset="B2B-XH-A_LF__SN_" device=""/>
 <part name="ADC_1" library="B3B-XH-A_LF__SN_" deviceset="B3B-XH-A_LF__SN_" device=""/>
 <part name="ADC_2" library="B3B-XH-A_LF__SN_" deviceset="B3B-XH-A_LF__SN_" device=""/>
@@ -10644,6 +10682,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <part name="SW5" library="B2B-XH-A_LF__SN_" deviceset="B2B-XH-A_LF__SN_" device=""/>
 <part name="SW6" library="B2B-XH-A_LF__SN_" deviceset="B2B-XH-A_LF__SN_" device=""/>
 <part name="SW7" library="B2B-XH-A_LF__SN_" deviceset="B2B-XH-A_LF__SN_" device=""/>
+<part name="U$4" library="user_conector" deviceset="BOX10P" device="BOX10P-L"/>
 </parts>
 <sheets>
 <sheet>
@@ -10704,7 +10743,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <attribute name="VALUE" x="0.302" y="97.19" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$3" gate="G$1" x="159" y="58" smashed="yes"/>
-<instance part="BOX10P-L1" gate="G$1" x="151" y="-52" smashed="yes" rot="R180"/>
 <instance part="SW1" gate="G$1" x="120" y="-101" smashed="yes">
 <attribute name="NAME" x="136.51" y="-93.38" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="136.51" y="-95.92" size="1.778" layer="96" align="center-left"/>
@@ -10818,6 +10856,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <attribute name="NAME" x="136.51" y="-184.38" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="136.51" y="-186.92" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="U$4" gate="G$1" x="166" y="-30" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 <bus name="+3.3V,GND,NRST,SWCLK,SWDIO,VCP_RX,VCP_TX">
@@ -11028,15 +11067,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <label x="134" y="47" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$7"/>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$8"/>
-<wire x1="145.92" y1="-21.52" x2="145.92" y2="-16.44" width="0.1524" layer="91"/>
-<wire x1="140" y1="-21" x2="145.92" y2="-21" width="0.1524" layer="91"/>
-<wire x1="145.92" y1="-21" x2="145.92" y2="-21.52" width="0.1524" layer="91"/>
-<junction x="145.92" y="-21.52"/>
-<label x="134" y="-22" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="ADC_1" gate="G$1" pin="2"/>
 <wire x1="39" y1="-90.54" x2="15" y2="-90.54" width="0.1524" layer="91"/>
 <wire x1="15" y1="-90.54" x2="15" y2="-90" width="0.1524" layer="91"/>
@@ -11112,6 +11142,15 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <wire x1="39" y1="-206.54" x2="15" y2="-206.54" width="0.1524" layer="91"/>
 <wire x1="15" y1="-206.54" x2="15" y2="-207" width="0.1524" layer="91"/>
 <label x="9" y="-207" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$7"/>
+<wire x1="150.76" y1="-19.84" x2="140" y2="-19.84" width="0.1524" layer="91"/>
+<wire x1="140" y1="-19.84" x2="140" y2="-19" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$8"/>
+<wire x1="150.76" y1="-14.76" x2="150.76" y2="-19.84" width="0.1524" layer="91"/>
+<junction x="150.76" y="-19.84"/>
+<label x="134" y="-20" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OSC_IN" class="0">
@@ -11411,12 +11450,13 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$2"/>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$1"/>
-<wire x1="145.92" y1="-46.92" x2="145.92" y2="-52" width="0.1524" layer="91"/>
-<wire x1="140" y1="-52" x2="145.92" y2="-52" width="0.1524" layer="91"/>
-<junction x="145.92" y="-52"/>
-<label x="133" y="-53" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="150.76" y1="-50.32" x2="140" y2="-50.32" width="0.1524" layer="91"/>
+<wire x1="140" y1="-50.32" x2="140" y2="-51" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
+<wire x1="150.76" y1="-50.32" x2="150.76" y2="-45.24" width="0.1524" layer="91"/>
+<junction x="150.76" y="-50.32"/>
+<label x="133" y="-51" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -11435,15 +11475,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="78" y1="5.08" x2="78" y2="8" width="0.1524" layer="91"/>
 <label x="78" y="9" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$10"/>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$9"/>
-<wire x1="145.92" y1="-6.28" x2="145.92" y2="-11.36" width="0.1524" layer="91"/>
-<wire x1="140" y1="-11" x2="145.92" y2="-11" width="0.1524" layer="91"/>
-<wire x1="145.92" y1="-11" x2="145.92" y2="-11.36" width="0.1524" layer="91"/>
-<junction x="145.92" y="-11.36"/>
-<label x="135" y="-12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ADC_1" gate="G$1" pin="1"/>
@@ -11480,6 +11511,15 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <wire x1="39" y1="-204" x2="15" y2="-204" width="0.1524" layer="91"/>
 <label x="10" y="-205" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$10"/>
+<pinref part="U$4" gate="G$1" pin="P$9"/>
+<wire x1="150.76" y1="-4.6" x2="150.76" y2="-9.68" width="0.1524" layer="91"/>
+<wire x1="140" y1="-10" x2="150.76" y2="-10" width="0.1524" layer="91"/>
+<wire x1="150.76" y1="-10" x2="150.76" y2="-9.68" width="0.1524" layer="91"/>
+<junction x="150.76" y="-9.68"/>
+<label x="135" y="-10" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -11502,10 +11542,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <label x="84" y="9" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$5"/>
-<wire x1="140" y1="-32" x2="145.92" y2="-32" width="0.1524" layer="91"/>
-<wire x1="145.92" y1="-32" x2="145.92" y2="-31.68" width="0.1524" layer="91"/>
-<label x="130" y="-33" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="P$5"/>
+<wire x1="150.76" y1="-30" x2="140" y2="-30" width="0.1524" layer="91"/>
+<label x="131" y="-31" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
@@ -11521,10 +11560,10 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8201557P"&gt; Datashe
 <label x="94" y="9" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="BOX10P-L1" gate="G$1" pin="P$6"/>
-<wire x1="140" y1="-27" x2="145.92" y2="-27" width="0.1524" layer="91"/>
-<wire x1="145.92" y1="-27" x2="145.92" y2="-26.6" width="0.1524" layer="91"/>
-<label x="131" y="-28" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="P$6"/>
+<wire x1="150.76" y1="-24.92" x2="150.76" y2="-25" width="0.1524" layer="91"/>
+<wire x1="150.76" y1="-25" x2="140" y2="-25" width="0.1524" layer="91"/>
+<label x="131" y="-25" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
